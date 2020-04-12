@@ -1,0 +1,87 @@
+/*photo Styling*/
+#headerPhoto {
+  margin-left: 45%;
+  margin-right: 30%;
+  width: 100%;
+}
+
+/*button section styling*/
+#btnSection {
+  padding: 15px;
+}
+
+/*table styling*/
+table {
+  table-layout: fixed;
+  width: 75%;
+  height: 85%;
+  align-items: center;
+  align-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */;
+}
+
+/*centers items*/
+td {
+  text-align: center;
+}
+
+/* new stuff here */
+
+.mainBox {
+  background-color: rgba(76, 175, 80, 0.3);
+
+  width: 80%;
+
+  display: inline-block;
+}
+
+.topBox {
+  display: flex;
+  justify-content: center;
+}
+
+.bottomBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  padding: 1vh;
+}
+
+.main-img {
+  border-style: none;
+
+  width: 70%;
+
+  padding: 3vh;
+}
+
+.outerBox {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.innerBox {
+  padding: 3vh;
+}
+
+.boxMe {
+  display: flex;
+
+  justify-content: center;
+}
+
+.alignText {
+  text-align: center;
+}
+
+.fixButtonSize {
+  padding: 1% !important;
+  margin: 1%;
+}

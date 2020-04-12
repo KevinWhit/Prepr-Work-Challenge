@@ -1,0 +1,85 @@
+/*styles top*/
+#explore {
+  text-align: center;
+}
+#nextBtn {
+  margin: 20px;
+}
+
+/*styles buttons*/
+button {
+  display: inline;
+  flex-wrap: wrap;
+}
+
+/*styles explore buttons*/
+#exploreBtns {
+  justify-content: center;
+  align-items: center;
+}
+
+/*styles an item*/
+.item {
+  border-style: groove;
+  border-radius: 4px;
+  width: 30%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/*styles item container*/
+.ItemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .item {
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+    border-style: groove;
+    border-radius: 4px;
+    width: 40%;
+  }
+
+  .ItemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 601) {
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.mr {
+  margin-right: 0.4em;
+}
+
+.w3-container {
+  padding: 0.4em 0.4em !important;
+}
+
+.buttonSection {
+  margin-right: 0.3em;
+}
+
+/* .img-border {
+  border: 1px solid black;
+} */
+
+.logo {
+  padding: 1vh;
+}

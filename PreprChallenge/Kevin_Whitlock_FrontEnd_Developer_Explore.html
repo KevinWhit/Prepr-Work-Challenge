@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+    <!--Imports-->
+    <head>
+        <title>Prepr - Explore</title>
+        <link rel="stylesheet" href="styles/Kevin_Whitlock_FrontEnd_Developer_Explore_Style.css"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img
+            src="assets/logo.png"
+            alt="logo"
+            style="width: 10%;"
+            class="img-border logo"
+            />
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 1.1em;">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Notifications</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Navigation</a>
+                </li>
+                
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search"
+                />
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+
+        <!--Explore Bar-->
+        
+        <div id="explore">
+            <h1>Explore</h1>
+            <div id ="exploreBtns">
+                <button type="button" class="btn btn-primary">Challenges</button>
+                <button type="button" class="btn btn-primary">Labs</button>
+                <button type="button" class="btn btn-primary">Projects</button>
+            </div>   
+        </div>
+    
+
+        <div class="ItemContainer">
+
+            <!--Item 1-->
+            <div class="item">
+                <img
+                src="assets/Covid_Challenge_img.jpg"
+                alt="Covid_Challenge"
+                style="width: 100%;"
+                />
+                <!--MODAL BUTTON-->
+                <div class="w3-container">
+                    <!-- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue">Description</button> -->
+
+                    <div class="buttonSection">
+
+                        <button type="button" class="btn btn-primary fr">Full Challenge</button>
+
+                    <button type="button" class="btn btn-primary fr mr" data-toggle="modal" data-target="#exampleModal">
+                        Description
+                      </button>
+
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Description</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                NRC is seeking a low cost system (unit cost <$25) that 
+                                can continuously measure temperature, peripheral capillary oxygen saturation 
+                                (SpO2), blood pressure (BP), pulse and respiration rates, and transmit this 
+                                information wirelessly to a base station for COVID-19 patient monitoring in 
+                                locales including ERs, general wards, communities and homes.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Item 2-->
+            <div class="item">
+                <img
+                src="assets/Covid_Test_Challenge.jpg"
+                alt="Covid_Test"
+                style="width: 100%;"
+                />
+                <!--MODAL BUTTON-->
+                <div class="w3-container">
+                    <!-- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue">Description</button> -->
+                    <button type="button" class="btn btn-primary fr">Full Challenge</button>
+
+                    <button type="button" class="btn btn-primary fr mr" data-toggle="modal" data-target="#exampleModal">
+                        Description
+                      </button>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Description</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                NRC is seeking a low cost system (unit cost <$25) that 
+                                can continuously measure temperature, peripheral capillary oxygen saturation 
+                                (SpO2), blood pressure (BP), pulse and respiration rates, and transmit this 
+                                information wirelessly to a base station for COVID-19 patient monitoring in 
+                                locales including ERs, general wards, communities and homes.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Item 3-->
+            <div class="item">
+                <img
+                src="assets/Recycle_Challenge.png"
+                alt="Recycle"
+                style="width: 100%;"
+                />
+                <div class="w3-container">
+                    <!-- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue">Description</button> -->
+                    <button type="button" class="btn btn-primary fr">Full Challenge</button>
+
+                    <button type="button" class="btn btn-primary fr mr" data-toggle="modal" data-target="#exampleModal">
+                        Description
+                      </button>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Description</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                NRC is seeking a low cost system (unit cost <$25) that 
+                                can continuously measure temperature, peripheral capillary oxygen saturation 
+                                (SpO2), blood pressure (BP), pulse and respiration rates, and transmit this 
+                                information wirelessly to a base station for COVID-19 patient monitoring in 
+                                locales including ERs, general wards, communities and homes.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Item 4-->
+            <div class="item">
+                <img
+                src="assets/Pastics_Challenge.png"
+                alt="Plastics"
+                style="width: 100%;"
+                />
+                <!--MODAL BUTTON-->
+                <div class="w3-container">
+                    <!-- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue">Description</button> -->
+                    <button type="button" class="btn btn-primary fr">Full Challenge</button>
+
+                    <button type="button" class="btn btn-primary fr mr" data-toggle="modal" data-target="#exampleModal">
+                        Description
+                      </button>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Description</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                NRC is seeking a low cost system (unit cost <$25) that 
+                                can continuously measure temperature, peripheral capillary oxygen saturation 
+                                (SpO2), blood pressure (BP), pulse and respiration rates, and transmit this 
+                                information wirelessly to a base station for COVID-19 patient monitoring in 
+                                locales including ERs, general wards, communities and homes.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Item 5-->
+            <div class="item">
+                <img
+                src="assets/MicroPlastics_Challenge.png"
+                alt="MicroPlastics"
+                style="width: 100%;"
+                />
+
+                <!--MODAL BUTTON-->
+                <div class="w3-container">
+                    <!-- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue">Description</button> -->
+                    <button type="button" class="btn btn-primary fr">Full Challenge</button>
+
+                    <button type="button" class="btn btn-primary fr mr" data-toggle="modal" data-target="#exampleModal">
+                        Description
+                      </button>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Description</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                NRC is seeking a low cost system (unit cost <$25) that 
+                                can continuously measure temperature, peripheral capillary oxygen saturation 
+                                (SpO2), blood pressure (BP), pulse and respiration rates, and transmit this 
+                                information wirelessly to a base station for COVID-19 patient monitoring in 
+                                locales including ERs, general wards, communities and homes.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Item 6-->
+            <div class="item">
+                <img
+                src="assets/eWaste_Challenge.png"
+                alt="eWaste"
+                style="width: 100%;"
+                />
+                
+                <!--MODAL BUTTON-->
+                <div class="w3-container">
+                    <!-- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue">Description</button> -->
+                    <button type="button" class="btn btn-primary fr">Full Challenge</button>
+
+                    <button type="button" class="btn btn-primary fr mr" data-toggle="modal" data-target="#exampleModal">
+                        Description
+                      </button>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Description</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                NRC is seeking a low cost system (unit cost <$25) that 
+                                can continuously measure temperature, peripheral capillary oxygen saturation 
+                                (SpO2), blood pressure (BP), pulse and respiration rates, and transmit this 
+                                information wirelessly to a base station for COVID-19 patient monitoring in 
+                                locales including ERs, general wards, communities and homes.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        
+
+    </body>
+</html>

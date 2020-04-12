@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <!--Imports-->
+    <head>
+      <title>Prepr - Challenges</title>
+        <link rel="stylesheet" href="styles/Kevin_Whitlock_FrontEnd_Developer_Challenges.css"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+        <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <img
+          src="assets/logo.png"
+          alt="logo"
+          style="width: 10%;"
+          class="img-border logo"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 1.1em;">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Navigation</a>
+              </li>
+              
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+              />
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </nav>
+
+
+    <!--Explore Bar-->
+    <div id="challenges">
+
+        <div id="explore">
+            <h1>Challenges</h1>
+            <button type="button" class="btn btn-primary">Browse</button>
+            <button type="button" class="btn btn-primary">Submitted</button>
+            <button type="button" class="btn btn-primary">Following</button>
+        </div>
+        
+        <!--Filters to be applied-->
+        <h3>Filters</h2>
+        <div id = "filter">
+            
+            <!--Select box-->
+            <select class = "select-css">
+                <option>Select Category</option>
+                <option>Incubator</option>
+                <option>Accelerators</option>
+                <option>Co-working Space</option>
+            </select>
+
+            <button type="button" class="btn btn-primary">All</button>
+            <button type="button" class="btn btn-primary">Local</button>
+
+            <!--Radio buttons-->
+            <label class="radio-inline"><input type="radio" name="optradio" checked>Public</label>
+            <label class="radio-inline"><input type="radio" name="optradio">Private</label>
+            
+            <button type="button" class="btn btn-primary">Apply Filter</button>
+
+        </div>
+    </div>
+
+
+    <div class="ItemContainer">
+
+        <!--Item 1-->
+        <div class="item">
+            
+            <h3><a href="#">Zero Poverty Challenge</a></h3>
+            
+             
+            <img
+                src="assets/Poverty.png"
+                alt="Poverty"
+                style="width: 100%;"
+            />
+            <p>The global poverty rate has halved since 2000 and despite the 
+                trend leading downwards since it seems to be flattening out 
+                since 2016. Together, we can challenge poverty and the economic 
+                systems that allow it to remain. Regardless of the world being
+                 more prosperous than ever before, inequality and wage disparity
+                  is at an all-time high. Eradicating poverty is not a task of 
+                  charity but a...</p>   
+        </div>
+
+        <!--Item 2-->
+        <div class="item">
+
+            <h3><a href="#">Zero Hunger Challenge</a></h3>
+
+            
+            <img
+                src="assets/Hunger.png"
+                alt="Hunger"
+                style="width: 100%;"
+            />
+            <p>Conflict and insecurity are the main drivers in 18 countries, 
+                where about 74 million people are in urgent need of assistance. 
+                Ending world hunger is a challenge that affects us all. Countries 
+                such as Yemen, Nigeria, The Democratic Republic of Congo, South Sudan, 
+                and Myanmar are some of the most affected by conflict, poli...</p>   
+        </div>
+
+        <!--Item 3-->
+        <div class="item">
+
+            <h3><a href="#">Good Health and Well-Being Challenge</a></h3>
+
+            
+            <img
+                src="assets/health.png"
+                alt="Health"
+                style="width: 100%;"
+            />
+            <p>We are spending an astonishing amount of money, and exhausting exponential 
+                resources, treating illnesses that are easily preventable. Promoting and educating 
+                a healthy lifestyle, putting in place preventive measures, and modern healthcare 
+                is at the forefront of ensuring our future is a bright, healthy, and sustainable one.  </p>   
+        </div>
+
+        <!--Item 4-->
+        <div class="item">
+
+            <h3><a href="#">Quaility Education Challenge</a></h3>
+
+            
+            <img
+                src="assets/Education.png"
+                alt="Health"
+                style="width: 100%;"
+            />
+            <p>Education is at the center of solving global challenges. A meaningful education 
+                equips children with the skills needed to be responsible citizens and care about
+                 the economy, health, gender equality, and environmental sustainability. Investing 
+                 in education is crucial to the overall development of any country and its people.</p>   
+        </div>
+
+        <!--Item 5-->
+        <div class="item">
+
+            <h3><a href="#">Gender Equaility Challenge</a></h3>
+
+            <img
+                src="assets/Equality.png"
+                alt="Equaility"
+                style="width: 100%;"
+            />
+            <p>Gender equality is fundamental to the social and economic growth of the global community. 
+                Ending all forms of discrimination against women is crucial to accelerating sustainable
+                 development and achieving global goals. Time and time again, it has been proven that empowering
+                  girls and women has a compounding effect of inclusiveness, equality, and the f...</p>   
+        </div>
+
+    </div>
+
+    <!--Next Page-->
+    <!-- <ul class="pager">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">Next</a></li>
+    </ul> -->
+    
+
+</body>

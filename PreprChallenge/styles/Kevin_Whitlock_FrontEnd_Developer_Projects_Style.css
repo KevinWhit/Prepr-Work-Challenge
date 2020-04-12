@@ -1,0 +1,49 @@
+/*style individual item*/
+.item {
+  padding: 5px;
+  width: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*styles the top header*/
+.TopHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.7em;
+}
+#explore {
+  text-align: center;
+}
+
+/*styles the containers*/
+#projWrapper {
+  margin-left: 15%;
+  margin-right: 15%;
+  background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */;
+  padding-bottom: 30px;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .item {
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+    border-style: groove;
+    width: 50%;
+  }
+
+  .TopHeader {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.logo {
+  padding: 1vh;
+}
+
+.scale {
+  padding-top: 30px;
+  padding-left: 20px;
+}
